@@ -1,0 +1,157 @@
+@font-face {
+	font-family: try;
+	src: url(Barbara.ttf);
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: bold;
+	src: url(LibreFranklin-Bold.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: reg;
+	src: url(LibreFranklin-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+#header {
+	background-color: #333580;
+	width: 100%;
+	height: 19%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+#header img {
+	float: left;
+	padding-left: 390px;
+	padding-top: 20px;
+}
+
+#header h1{
+	padding-top: 20px;
+	letter-spacing: 4px;
+}
+
+.media {
+    width: 300px; /* Adjust the width as needed */
+    height: 350px;
+  }
+
+.parallax {
+  	background-image: url("bg1.png");
+  	min-height: 600px; 
+  	width: 100%;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 1100px 350px;
+}
+
+#wrapper h1{
+	font-family: bold;
+	color: #1d519c;
+	text-align: center;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+
+.places{
+	font-family: try;
+	color: #ee424d;
+	padding-left: 180px;
+	letter-spacing: 3px;
+	font-size: 35px;
+}
+
+.subTitle{
+	font-family: bold;
+	color: #f17d21;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+
+.songName{
+	font-family: reg;
+ 	font-size: 19px;
+ 	text-align: center; 
+ 	text-decoration: underline;
+}
+
+.description{
+	font-family: reg;
+	font-size: 17px;
+	text-align: center; 
+	margin: 0 auto; 
+	max-width: 860px;
+	text-align: justify;
+}
+
+.categories {
+	text-align: center;
+}
+
+.play-tile {
+	text-align: center;
+	margin: auto 10px;
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	border: 3px solid #ee424d;
+}
+
+.play-tile video {
+	border: 3px solid #ee424d;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container {
+	text-align: center;
+  	display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+  
+.image-container {
+   flex: 1;
+   margin-right: 200px;
+}
+
+.image-container:last-child {
+   margin-right: 0;
+}
+
+.image-container img {
+  	width: 100%;
+  	height: 100%;
+  	display: block;
+  	max-width: 250px;
+  	max-height: 250px;
+	border: 3px solid #f17d21;
+}
+
+.foodDescription{
+ 	font-family: reg;
+ 	font-size: 17px;
+ 	text-align: center; 
+	margin: 0 auto; 
+	max-width: 250px;
+	text-align: justify;
+}
+
+.foodDescription h4{
+	text-decoration: underline;
+}
